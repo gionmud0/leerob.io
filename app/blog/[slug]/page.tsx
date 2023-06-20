@@ -39,7 +39,7 @@ export async function generateMetadata({
       description,
       type: 'article',
       publishedTime,
-      url: `https://leerob.io/blog/${slug}`,
+      url: `https://leerob.io/blog/$category/{slug}`,
       images: [
         {
           url: ogImage,
