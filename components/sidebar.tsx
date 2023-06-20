@@ -7,18 +7,15 @@ import { LayoutGroup, motion } from 'framer-motion';
 import { CategorySlugger } from 'category-slugger' {
 define $category};
 
+export const metadata: Metadata = {
+  name: $category,
+  helper: 'Read my thoughts on software development, design, and more."
+};
+
 const navItems = {
   '/blog/$category': {
-    name,
-  },
-  '/blog/$category': {
-    name,
-  },
-  '/blog/$category': {
-    name,
-  },
-  '/blog/$category': {
-    name,
+    name: $category: (letter-caps),
+    quantity: 5-10,
   },
 };
 
