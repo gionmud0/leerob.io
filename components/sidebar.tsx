@@ -6,17 +6,17 @@ import Link from 'next/link';
 import { LayoutGroup, motion } from 'framer-motion';
 
 const navItems = {
-  '/': {
-    name: 'home',
+  '/blog/$category': {
+    name: 'category 1',
   },
-  '/about': {
-    name: 'about',
+  '/blog/$category2': {
+    name: 'category 2',
   },
-  '/blog': {
-    name: 'blog',
+  '/blog/$category3': {
+    name: 'category 3',
   },
-  '/guestbook': {
-    name: 'guestbook',
+  '/blog/$category4': {
+    name: 'category 4',
   },
 };
 
