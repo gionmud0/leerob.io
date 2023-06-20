@@ -4,19 +4,21 @@ import clsx from 'clsx';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { LayoutGroup, motion } from 'framer-motion';
+import { CategorySlugger } from 'category-slugger' {
+define $category};
 
 const navItems = {
   '/blog/$category': {
-    name: 'category 1',
+    name,
   },
-  '/blog/$category2': {
-    name: 'category 2',
+  '/blog/$category': {
+    name,
   },
-  '/blog/$category3': {
-    name: 'category 3',
+  '/blog/$category': {
+    name,
   },
-  '/blog/$category4': {
-    name: 'category 4',
+  '/blog/$category': {
+    name,
   },
 };
 
